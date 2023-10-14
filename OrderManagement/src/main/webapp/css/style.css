@@ -1,0 +1,113 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+h1 {
+	padding-bottom: 20px;
+}
+
+p {
+	margin: 10px 0px;
+}
+
+a {
+	color: #fff;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	width: 80px;
+	background: url('./../img/logo.png') no-repeat center center/cover;
+	;
+}
+
+.heading {
+	text-align: center;
+	color: #333;
+}
+
+.bold {
+	font-weight: 800;
+}
+
+.error {
+	color: red;
+}
+
+.h-flex {
+	display: flex;
+}
+
+.container {
+	margin: auto;
+	max-width: 500px;
+	overflow: auto;
+	margin-top: 50px;
+	padding: 10px 20px;
+	border-color: #333;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.form-field {
+	margin-bottom: 20px;
+}
+
+.form-field input {
+	width: 100%;
+	padding: 3px;
+}
+
+.button {
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.button:hover {
+	opacity: 90%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.items {
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.items .card {
+	border-color: #333;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
